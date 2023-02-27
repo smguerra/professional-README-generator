@@ -1,7 +1,7 @@
 import inquirer from "inquirer";
 import fs from 'fs/promises'
 
-const {title, description, license, installation, usage, test, contribution, github, email} = await inquirer
+const {title, description, license, installation, usage, test, contributing, github, email} = await inquirer
     .prompt([
         {
             name: 'title',
@@ -35,7 +35,7 @@ const {title, description, license, installation, usage, test, contribution, git
             message: "how to run a test?"
         },
         {
-            name: 'contribution',
+            name: 'contributing',
             input: 'input',
             message: "What does the user needs to know about contributing to the repo?"
         },
@@ -51,7 +51,7 @@ const {title, description, license, installation, usage, test, contribution, git
         },
 ]);
 
-console.log(title, description, license, installation, usage, test, contribution, github, email);
+console.log(title, description, license, installation, usage, test, contributing, github, email);
 
 const readme = `
     # Project Title
@@ -63,20 +63,29 @@ const readme = `
     ## Table of Contents 
     * [Installation](#installation) 
     * [Usage](#usage) 
-    * License(#license)
-    * Contributing(#contributing)
-    * Tests(#tests)
-    * Questions(#questions)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
     ## Installation
     ${installation}
 
+    ## How to use this programme?
+    ${usage}
+
+    ## License 
+    ${license}
+
+    ## Contributing
+    ${contributing}
+
+    ## Tests
+    ${test}
+
+    ## Questions
     
-    <h3>My linkedIn: https://www.linkedin.com/in/${linkedIn}</h3>
-    <h3>Check out my github: https://github.com/${github}</h3>
-    
-</body>
-</html>
+    If you have any questions about the repo, open an issue or contact me directly at smguerra. you can find more information at: [smguerra](https://github.com/smguerra).
 `
 
 await fs.writeFile('README.md', readme)
