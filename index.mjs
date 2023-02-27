@@ -17,7 +17,6 @@ const {title, description, license, installation, usage, test, contributing, git
             name: "license",
             type: "input" ,
             message: "What kind of license should your project have?",
-            choices: ["None", "MIT License", "Boost Software License 1.0", "Apache License 2.0"]
         },
         {
             name: "installation",
