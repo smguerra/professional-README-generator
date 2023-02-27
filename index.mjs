@@ -56,15 +56,22 @@ console.log(title, description, license, installation, usage, test, contribution
 const readme = `
     # Project Title
     ${title}
+
     ## Description
     ${description}
+
     ## Table of Contents 
-    * [Installation] 
-    * Usage 
-    * License 
-    * Contributing 
-    * Tests 
-    * Questions
+    * [Installation](#installation) 
+    * [Usage](#usage) 
+    * License(#license)
+    * Contributing(#contributing)
+    * Tests(#tests)
+    * Questions(#questions)
+    
+    ## Installation
+    ${installation}
+
+    
     <h3>My linkedIn: https://www.linkedin.com/in/${linkedIn}</h3>
     <h3>Check out my github: https://github.com/${github}</h3>
     
