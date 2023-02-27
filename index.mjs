@@ -48,10 +48,10 @@ const {title, description, license, installation, usage, test, contributing, git
             name: 'email',
             input: 'input',
             message: "What is your email address?"
-        },
-]);
+        }
+])
 
-console.log(title, description, license, installation, usage, test, contributing, github, email);
+//console.log(title, description, license, installation, usage, test, contributing, github, email);
 
 const readme = `
     # Project Title
