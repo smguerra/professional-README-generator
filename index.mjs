@@ -85,7 +85,7 @@ const readme = `
 
     ## Questions
     
-    If you have any questions about the repo, open an issue or contact me directly at smguerra. you can find more information at: [smguerra](https://github.com/smguerra).
+    If you have any questions about the repo, open an issue or contact me directly at smguerra. you can find more information at: https://github.com/smguerra/professional-README-generator
 `
 
 await fs.writeFile('README.md', readme)
