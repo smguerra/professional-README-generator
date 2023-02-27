@@ -1,6 +1,8 @@
 import inquirer from "inquirer";
 import fs from 'fs/promises';
 
+// Destructuring 
+
 const {title, description, license, installation, usage, test, contributing, github, email} = await inquirer
     .prompt([
         {
@@ -84,7 +86,7 @@ ${test}
 
 ## Questions
     
-If you have any questions about the repo, open an issue or contact me directly at smguerra. you can find more information at: https://github.com/smguerra/professional-README-generator
+If you have any questions about the repo, open an issue or contact me directly at ${email}. you can find more information at: https://github.com/smguerra/professional-README-generator
 `
 
 await fs.writeFile('README.md', readme);
