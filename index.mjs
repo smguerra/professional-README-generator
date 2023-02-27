@@ -90,15 +90,3 @@ If you have any questions about the repo, open an issue or feel free to contact 
 `
 await fs.writeFile('README.md', readme);
 
-
-
-
-
-
-
-
-
-
-
-
-
