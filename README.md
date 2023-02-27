@@ -1,9 +1,9 @@
 
 # Project Title
-s
+g
 
 ## Description
-s
+g
 
 ## Table of Contents 
 * [Installation](#installation) 
@@ -14,20 +14,20 @@ s
 * [Questions](#questions)
     
 ## Installation
-s
+g
 
 ## How to use this programme?
-s
+g
 
 ## License 
-s
+g
 
 ## Contributing
-s
+g
 
 ## Tests
-s
+g
 
 ## Questions
     
-If you have any questions about the repo, open an issue or contact me directly at milenagg77@hotmail.com. you can find more information at: https://github.com/smguerra/professional-README-generator
+If you have any questions about the repo, open an issue or feel free to contact me on kilena@hotmail.com or [GitHub](https://github.com/smguerra). you can find more information at: https://github.com/smguerra/professional-README-generator
